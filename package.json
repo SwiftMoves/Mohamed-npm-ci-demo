@@ -9,16 +9,10 @@
     "build": "mkdir -p dist && cp -r src/* dist/",
     "start": "node dist/index.js"
   },
-  "keywords": [
-    "ci",
-    "cd",
-    "jenkins",
-    "github-actions"
-  ],
-  "license": "MIT",
   "devDependencies": {
-    "@eslint/js": "^9.0.0",
-    "eslint": "^9.0.0",
+    "@eslint/js": "^9.39.5",
+    "eslint": "^9.39.5",
+    "globals": "^17.11.0",
     "jest": "^29.7.0"
-}
+  }
 }
